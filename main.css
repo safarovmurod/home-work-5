@@ -161,7 +161,7 @@
 
 
 
-.pictures_text {
+.pictures_text,.section_2 {
     display: flex;
     width: 70%;
     margin: auto;
@@ -188,6 +188,7 @@
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
+    color: #101C26;
 }
 
 .Customer {
@@ -210,4 +211,30 @@
     font-size: 44px;
     line-height: 56px;
     color: #24272E;
+}
+
+
+
+.section_2{
+
+}
+.logo_text{
+    display: flex;
+    gap: 15px;
+}
+.Frist_working{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.part{
+    width: 301px;
+    color: #555C68;
+    font-size: 16px;
+    line-height: 24px;
+}
+.btn6{
+    width: 169px;
+    height: 39px;
+    color: #101C26;
 }
