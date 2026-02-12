@@ -66,9 +66,9 @@
     justify-content: space-between;
     width: 100%;
     padding-left: 12%;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
-  
+
 .left {
     width: 534px;
     height: auto;
@@ -126,10 +126,12 @@
     align-items: center;
     gap: 15px;
 }
-.number_full{
+
+.number_full {
     display: flex;
     gap: 40px;
 }
+
 .number_text {
     font-weight: 800;
     font-size: 44px;
@@ -141,15 +143,71 @@
     justify-content: center;
     align-items: center;
 }
-.rigth{
+
+.rigth {
 
     display: flex;
     justify-content: end;
 }
-.logo{
+
+.logo {
     width: 90%;
     display: flex;
     justify-content: space-between;
     margin: auto;
     margin-top: 100px;
+}
+
+
+
+
+.pictures_text {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.text_section1{
+    width: 628px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bg_col {
+    background-color: #24272E;
+    color: #F0E714;
+    width: 160px;
+    height: 46px;
+}
+
+.btn4 {
+    background: #F0E71433;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.Customer {
+    width: 508px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #555C68;
+    letter-spacing: 0%;
+
+}
+
+.btn5 {
+    font-size: 14px;
+    color: #F0E714;
+}
+
+.h2_text {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    color: #24272E;
 }
