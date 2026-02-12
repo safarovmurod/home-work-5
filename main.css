@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+}
+
+
+
+.section_1_color {
+    background-color: #101C26;
+    width: 100%;
+    height: 900px;
+
+}
+
+.hider_menu {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.section_1_Textabout {
+    display: flex;
+    gap: 37px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color: #BAB9B9;
+}
+
+.Home {
+    color: #FFFFFF;
+    border-bottom: 1px solid gray;
+}
+
+.section_1_button {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn1,
+.btn2 {
+    width: 117px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid #CECECE;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #101c2600;
+    color: #CECECE;
+}
+
+.btn2 {
+    width: 138px;
+    background-color: #F0E714;
+    color: #101C26;
+}
+
+
+
+
+.hider_2_text_photo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 12%;
+    box-sizing: border-box;   
+}
+  
+.left {
+    width: 534px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.h1_text {
+    color: #F3F4F6;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: 1%;
+
+}
+
+.about_text {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -1.1%;
+    color: #F3F4F6;
+}
+
+.button_video {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.buton_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 197px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+
+.btn3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.icon_video_text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.number_full{
+    display: flex;
+    gap: 40px;
+}
+.number_text {
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    color: #F0E714;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rigth{
+
+    display: flex;
+    justify-content: end;
+}
+.logo{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+}
