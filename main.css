@@ -326,31 +326,36 @@ body {
     gap: 15px;
     align-items: center;
 }
-.businesses{
+
+.businesses {
     width: 479px;
     color: #555C68;
     font-size: 20px;
 }
-.Hotel_h4{
-color: #24272E;
-font-weight: 500;
-font-style: Medium;
-font-size: 34px;
-line-height: 28px;
+
+.Hotel_h4 {
+    color: #24272E;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 34px;
+    line-height: 28px;
 }
-.hotel_text{
-   width: 450px;
-   display: flex;
-   flex-direction: column;
-   gap: 12px;
-   padding: 30px;
+
+.hotel_text {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 30px;
 }
-.img_comentHotel{
+
+.img_comentHotel {
     width: 510px;
     height: 824px;
     margin-top: 30px;
 }
-.section_4_full{
+
+.section_4_full {
     display: flex;
     width: 60%;
     justify-content: space-between;
@@ -360,10 +365,11 @@ line-height: 28px;
 
 
 
-.section_5{
-  margin-top: 40px;
+.section_5 {
+    margin-top: 40px;
 }
-.center{
+
+.center {
     margin: auto;
     width: 560px;
     display: flex;
@@ -375,18 +381,21 @@ line-height: 28px;
 
 
 
-.grid{
+.grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     width: 94%;
     gap: 30px;
     margin: auto;
-  
+
     justify-content: space-evenly;
     margin-top: 70px;
 }
-.iteam1,.iteam2,.iteam3{
+
+.iteam1,
+.iteam2,
+.iteam3 {
     max-width: 576px;
     height: 338px;
     background-color: #FFFFFF;
@@ -396,26 +405,108 @@ line-height: 28px;
     align-items: center;
     justify-content: center;
 }
-.iteam2{
+
+.iteam2 {
     width: 568px;
     height: 406px;
 }
-.logotip_text
-{
- display: flex;
- flex-direction: column;
- gap: 3px;
- align-items: center;
+
+.logotip_text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
 }
-.amet{
+
+.amet {
     width: 438px;
     color: #555C68;
 }
-.about_icon{
+
+.about_icon {
     display: flex;
     gap: 10px;
+
+}
+
+.Traced {
+    align-self: self-end;
+}
+
+.section_6 {
+    width: 100%;
+    height: 700px;
+    background-color: #FFFFFF;
+    margin-top: 80px;
+    display: flex;
+}
+
+.Let’s {
+    width: 510px;
+    color: #010101;
+}
+
+.Pilgrm {
+    font-size: 14px;
+    color: #555C68;
+    line-height: 130%;
+    width: 204px;
+}
+
+.pictures_pligrm {
+    display: flex;
+    gap: 10px;
+
+}
+
+.info_agency {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bg_c26 {
+    background-color: #101C26;
+    width: 620px;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
     
 }
-.Traced{
-    align-self: self-end;
+.input_button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    background-color: #101c2600;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.your{
+    font-size: 14px;
+    color:#D3D3D3 ;
+}
+.Manowar {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1.5px solid #FFFFFF;
+}
+.btn7{
+    margin-top: 50px;
+}
+.s6_flexfull{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    
 }
